@@ -1,5 +1,5 @@
 return {
-   'nvim-lua/plenary.nvim',
+  'nvim-lua/plenary.nvim',
   'matbme/JABS.nvim',
   {
 	'nvim-telescope/telescope.nvim', tag = '0.1.4',
@@ -43,4 +43,11 @@ return {
     -- themes
   'Mofiqul/vscode.nvim',
   "akinsho/toggleterm.nvim", 
+  'neovim/nvim-lspconfig',
+  { 
+      'nvim-treesitter/nvim-treesitter',
+      lazy = false,
+      branch = 'main',
+      build = ':TSUpdate'
+  },
 }

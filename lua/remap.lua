@@ -1,4 +1,4 @@
----@diagnostic diable: undefined-global
+---@diagnostic disable: undefined-global
 
 vim.g.mapleader = " "
 

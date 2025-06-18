@@ -1,7 +1,5 @@
-
 local function use_scheme(theme_name)
     if theme_name == "vs_code" then
-        local c = require('vscode.colors').get_colors()
         require('vscode').setup({
             style = 'dark',
             transparent = true,
