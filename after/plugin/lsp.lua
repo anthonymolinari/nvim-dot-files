@@ -1,6 +1,5 @@
 ---@diagnostic disable: undefined-global
 
-
 --- configure language servers
 vim.lsp.config['luals'] = {
     cmd = { 'lua-language-server' },
@@ -27,7 +26,7 @@ vim.lsp.enable('bashls')
 vim.lsp.config['nixd'] = {
     cmd = { 'nixd' },
     filetypes = { 'nix' },
-    root_markers = { 'flake.nix', '.git', 'home.nix', 'configuration.nix' },
+    root_markers = { 'flake.nix', '.git', 'home.nix' },
 }
 vim.lsp.enable('nixd')
 
