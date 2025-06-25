@@ -16,6 +16,7 @@ vim.lsp.config['luals'] = {
 vim.lsp.enable('luals')
 
 
+
 vim.lsp.config['bashls'] = {
     cmd = { 'bash-language-server' },
     filetypes = { 'bash', 'sh' },
@@ -23,11 +24,15 @@ vim.lsp.config['bashls'] = {
 }
 vim.lsp.enable('bashls')
 
+
+
 vim.lsp.config['nixd'] = {
     cmd = { 'nixd' },
     filetypes = { 'nix' },
     root_markers = { 'flake.nix', '.git', 'home.nix' },
 }
 vim.lsp.enable('nixd')
+
+vim.lsp.enable('pyright')
 
 --- lsp key bindings
