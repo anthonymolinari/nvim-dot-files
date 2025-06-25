@@ -42,6 +42,7 @@ return {
   },
     -- themes
   'Mofiqul/vscode.nvim',
+  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
   "akinsho/toggleterm.nvim", 
   'neovim/nvim-lspconfig',
   { 

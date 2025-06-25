@@ -7,6 +7,13 @@ local function use_scheme(theme_name)
         })
         require('vscode').load()
     end
+    if theme_name == "catppuccin" then
+        require("catppuccin").setup({
+            flavour = "mocha",
+            transparent_background = true,
+        })
+        vim.cmd.colorscheme "catppuccin"
+    end
 end
 
-use_scheme('vs_code')
+use_scheme('catppuccin')
