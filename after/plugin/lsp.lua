@@ -35,4 +35,6 @@ vim.lsp.enable('nixd')
 
 vim.lsp.enable('pyright')
 
+vim.lsp.enable('cssls')
+
 --- lsp key bindings
