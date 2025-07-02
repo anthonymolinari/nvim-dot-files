@@ -2,7 +2,7 @@ return {
   'nvim-lua/plenary.nvim',
   'matbme/JABS.nvim',
   {
-	'nvim-telescope/telescope.nvim', tag = '0.1.4',
+	'nvim-telescope/telescope.nvim', tag = '0.1.8',
 	dependencies = { {'nvim-lua/plenary.nvim'} }
   },
   'nvim-tree/nvim-web-devicons',
@@ -47,6 +47,7 @@ return {
   'neovim/nvim-lspconfig',
   { 
       'nvim-treesitter/nvim-treesitter',
+      tag = "v0.10.0",
       lazy = false,
       branch = 'main',
       build = ':TSUpdate'
